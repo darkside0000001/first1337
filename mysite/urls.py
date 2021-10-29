@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', include("blog.urls")),
     path('', include("blog.urls")),
+    path('payeer_1527118333.txt', include("blog.urls")),
+    path('', include("blog.urls")),
 ]
